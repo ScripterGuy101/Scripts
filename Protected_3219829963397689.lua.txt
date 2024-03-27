@@ -85,9 +85,9 @@ Tab:AddButton({
 })
 
 Tab:AddButton({
-    Name = "Infinite Yield (use nofog)",
+    Name = "Remove Fog",
     Callback = function()
-              loadstring(game:HttpGet("https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source"))()
+              loadstring(game:HttpGet("https://raw.githubusercontent.com/IAmOnTablet/my-scripts-or-deleted-scripts/main/No fog"))()
       end    
 })
 local Tab = Window:MakeTab({
