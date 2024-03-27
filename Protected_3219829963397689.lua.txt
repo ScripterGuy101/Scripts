@@ -83,6 +83,13 @@ Tab:AddButton({
               loadstring(game:HttpGet("https://pastebin.com/raw/06iG6YkU"))()
       end    
 })
+
+Tab:AddButton({
+    Name = "Infinite Yield (use nofog)",
+    Callback = function()
+              loadstring(game:HttpGet("https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source"))()
+      end    
+})
 local Tab = Window:MakeTab({
     Name = "Teleports",
     Icon = "rbxassetid://4483345998",
